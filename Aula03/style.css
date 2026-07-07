@@ -13,19 +13,19 @@ p::after{
 
 p::first-line{
     font-weight: bold;
-    font-style: italic;
+    font-style: Arial;
 }
 
-body::selection{
+::selection{
     background-color: lightblue;
 }
 
-input::placeholder{
+input[placeholder="Digite seu nome"]{
     font-style: italic;
     background-color: lightgray;
 }
 
-ul{
+li::marker{
     color: violet;
     font-size: 20px;
 }
