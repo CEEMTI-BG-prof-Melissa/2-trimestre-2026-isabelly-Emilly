@@ -1,0 +1,31 @@
+h1::before{
+    content:"✌️";
+}
+
+p::after{
+    content: "😊";
+}
+
+.bio::first-letter{
+    font-size: 30px;
+    color: red;
+}
+
+p::first-line{
+    font-weight: bold;
+    font-style: italic;
+}
+
+body::selection{
+    background-color: lightblue;
+}
+
+input::placeholder{
+    font-style: italic;
+    background-color: lightgray;
+}
+
+ul{
+    color: violet;
+    font-size: 20px;
+}
