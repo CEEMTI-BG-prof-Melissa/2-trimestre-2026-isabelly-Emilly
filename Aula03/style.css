@@ -13,11 +13,12 @@ p::after{
 
 p::first-line{
     font-weight: bold;
-    font-style: Arial;
+    font-family: Arial;
 }
 
 ::selection{
     background-color: lightblue;
+    color: blue;
 }
 
 input[placeholder="Digite seu nome"]{
