@@ -18,12 +18,12 @@ p::first-line{
 
 ::selection{
     background-color: lightblue;
-    color: orange;
 }
 
 input[placeholder="Digite seu nome"]{
     font-style: italic;
     background-color: lightgray;
+    color: orange;
 }
 
 li::marker{
