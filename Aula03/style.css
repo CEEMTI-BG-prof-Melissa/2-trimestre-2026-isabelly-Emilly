@@ -18,6 +18,7 @@ p::first-line{
 
 ::selection{
     background-color: lightblue;
+    color: orange;
 }
 
 input[placeholder="Digite seu nome"]{
